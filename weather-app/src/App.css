@@ -1,74 +1,77 @@
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+body {
+  background-color: #c3def7;
+}
+
 .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   padding: 25px;
 }
 
-.input {
-  padding: 15px;
-  width: 70%;
-  margin: auto;
-  border: 1px solid lightgray;
-  font-size: 15px;
-}
-
-.button {
-  font-size: 20px;
-  align-items: end;
-  margin-left: 1234px;
-}
-.weather-data {
-  margin-top: 80px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.city {
-  font-size: 30px;
-  font-weight: 200;
-  border: 1px solid black;
-  border-radius: 20px;
-  padding: 10px;
-}
-
-.temp {
-  font-size: 50px;
-  padding: 15px;
-  border: 1px solid black;
-  border-radius: 25px;
-  margin-top: 80px;
-}
-
-.weather {
-  font-size: 30px;
-  font-weight: 200;
-  margin-top: 80px;
-  padding: 10px;
-  border: 1px solid black;
-  border-radius: 20px;
-}
-
-.other {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-top: 20px;
+#input {
   font-size: 25px;
-  font-weight: 200;
 }
 
-.humidity {
-  margin-right: 300px;
+#search-btn {
+  background-color: #81fc8f;
   border: 1px solid black;
-  padding: 8px;
-  border-radius: 20px;
 }
 
-.wind {
+#search-btn:hover {
+  background-color: #029e14;
+}
+
+.welcome-message {
+  margin: 20px auto;
+  font-size: 28px;
+}
+
+#title {
+  margin-bottom: 30px;
+  font-size: 50px;
+}
+
+#weather-data {
+ margin-top: 20px;
+ font-size: 25px;
+ padding: 15px;
+}
+
+#city{
+  font-size: 45px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  
+}
+
+#temp {
+  border: 1px solid black;
+  width: 80px;
+  margin: 30px auto;
+  border-radius: 15px;
+}
+
+#weather {
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+#icon {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+#humidity {
   border: 1px solid black;
   padding: 8px;
-  border-radius: 20px;
+  border-radius: 15px;
+  margin-right: 180px;
+}
+
+#wind {
+  border: 1px solid black;
+  padding: 8px;
+  border-radius: 15px;
 }
